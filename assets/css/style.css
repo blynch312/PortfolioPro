@@ -3,7 +3,7 @@ ul {
   }
 
 .header {
-    background-color: #65a1e6;
+    background-color: #0aaff1;
     padding-bottom: 120px;
     padding-top: 10px;
 }
@@ -14,14 +14,16 @@ ul {
 
 .navBrand {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
     color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link:hover {
-    color: #f0f0f0 !important;
+    color: #f0f0f0!important;
 }
 
 .active {
@@ -32,7 +34,8 @@ ul {
     text-align: center;
     position: relative;
     bottom: 65px;
-    color: #ffffff
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contentContainer {
@@ -48,4 +51,8 @@ ul {
     background-color: #ee9b1e;
     width: 120px;
     border: none;
+}
+.contactForm {
+    width: 40%;
+    margin: auto;
 }
