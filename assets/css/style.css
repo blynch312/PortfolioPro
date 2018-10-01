@@ -1,0 +1,51 @@
+ul {
+    list-style: none;
+  }
+
+.header {
+    background-color: #65a1e6;
+    padding-bottom: 120px;
+    padding-top: 10px;
+}
+.navigation {
+    width: 65%;
+    margin: auto;
+}
+
+.navBrand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #f0f0f0 !important;
+}
+
+.active {
+    color: #d1eafd !important;
+}
+
+.pageTitle {
+    text-align: center;
+    position: relative;
+    bottom: 65px;
+    color: #ffffff
+}
+
+.contentContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.experience {
+    text-align: center;
+}
+
+.btn {
+    background-color: #ee9b1e;
+    width: 120px;
+    border: none;
+}
