@@ -41,15 +41,21 @@ ul {
 .contentContainer {
     width: 65%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .portfolioLink {
-    color:#ee9b1e;
+    color:#ee9b1e !important;
     text-align: center !important;
+    margin-top: 20px;
 }
 
-.portfolioLink:hover {
-    color: #0aaff1
+#portfolioLink {
+    color:#ee9b1e !important;
+}
+
+#portfolioLink:hover {
+    color: #0aaff1 !important
 }
 
 .experience {
@@ -61,6 +67,10 @@ ul {
     width: 120px;
     border: none;
 }
+.btn:hover {
+    background-color: #0aaff1;
+}
+
 .contactForm {
     width: 40%;
     margin: auto;
@@ -69,4 +79,19 @@ ul {
 .inLogo {
     display: inline-block;
     float: right;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #204b7c;
+    margin-top: 10px;
+}
+
+.footerNote{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 8px;
 }
